@@ -1,0 +1,12 @@
+@mixin circle($w, $h, $border, $shadow) {
+  width: $w;
+  height: $h;
+  color: #00e8e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #116193;
+  border: $border solid #116193;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 $shadow #00e8e4;
+}
